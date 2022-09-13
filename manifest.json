@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "Allows us to override youtube to get rid of distractions.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["./main.js"]
+        }
+    ],
+
+    "action": {
+        "default_icon": {
+            "16": "./icon-images/frog16.png",
+            "48": "./icon-images/icon48.png",
+            "128": "./icon-images/cool128.png"
+        },
+        "default_title": "Click to View",
+        "default_popup": "./popup.html"
+      } 
+}
