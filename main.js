@@ -1,4 +1,4 @@
 const contents = $("#contents");
-const contentsParent = contents.parent()
+const contentsParent = contents.parent();
 contents.remove();
-$("contentsParent").prepend("./images/motivated")
+contentsParent.prepend("<img src='./images/motivated.jpg'>");
