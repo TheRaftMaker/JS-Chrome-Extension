@@ -5,8 +5,8 @@
     "description": "Allows us to override youtube to get rid of distractions.",
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/*"],
-            "js": ["./main.js"]
+            "matches": ["https://www.youtube.com/*", "https://www.youtube.com/*"],
+            "js": ["./jquery.min.js", "./main.js"]
         }
     ],
 
