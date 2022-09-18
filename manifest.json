@@ -12,11 +12,16 @@
 
     "action": {
         "default_icon": {
-            "16": "./icon-images/frog16.png",
-            "48": "./icon-images/icon48.png",
-            "128": "./icon-images/cool128.png"
+            "16": "./icons-images/frog16.png",
+            "48": "./icons-images/icon48.png",
+            "128": "./icons-images/cool128.png"
         },
         "default_title": "Click to View",
         "default_popup": "./popup.html"
-      } 
+      },
+      
+    "web_accessible_resources": [{
+        "matches": ["<all_urls>"],
+        "resources": ["images/motivated.png"]
+    }]
 }
