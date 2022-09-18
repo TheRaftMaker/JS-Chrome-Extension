@@ -12,9 +12,11 @@
 
     "action": {
         "default_icon": {
-            "16": "./icons-images/frog16.png",
-            "48": "./icons-images/icon48.png",
-            "128": "./icons-images/cool128.png"
+            "16": "./images/icons/frog16.png",
+            "19": "./images/icons/icon19.png",
+            "38": "./images/icons/icon38.png",
+            "48": "./images/icons/icon48.png",
+            "128": "./images/icons/cool128.png"
         },
         "default_title": "Click to View",
         "default_popup": "./popup.html"
