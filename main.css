@@ -1,0 +1,11 @@
+.words{
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 3px 3px 6px purple;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    width: 70%;
+}

@@ -9,9 +9,9 @@ window.clearInterval(checkId);
 const contentsParent = contents.parent();
 contents.remove();
 
-contentsParent.prepend("<h1>Get back to Work!</h1>")
 // contentsParent.prepend("<img src='images/motivated.png'>");
 const imgURL = chrome.runtime.getURL("images/motivated.png");
-const htmlString = `<img src="${imgURL}">`;
+const htmlString = `<img class= "image" src="${imgURL}">`;
 contentsParent.prepend(htmlString)
+contentsParent.prepend("<h1>Sacrifice your happiness for the sake of someone else.</h1>").addClass("words")
 }
